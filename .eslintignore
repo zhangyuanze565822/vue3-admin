@@ -1,0 +1,6 @@
+*.html
+**/.git
+**/node_modules
+public
+vite.config.ts
+*.d.ts

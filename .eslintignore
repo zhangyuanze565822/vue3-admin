@@ -3,4 +3,5 @@
 **/node_modules
 public
 vite.config.ts
+tailwind.config.js
 *.d.ts

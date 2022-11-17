@@ -31,6 +31,26 @@ const router = createRouter({
           name: 'dashboard',
           component: () => import('../views/pages/dashboard/index.vue'),
         },
+        {
+          path: 'workbench',
+          name: 'workbench',
+          component: () => import('../views/pages/workbench/index.vue'),
+        },
+        {
+          path: 'account-setting',
+          name: 'account-setting',
+          component: () => import('../views/pages/settings/account/index.vue'),
+        },
+        {
+          path: 'menu-setting',
+          name: 'menu-setting',
+          component: () => import('../views/pages/settings/menu/index.vue'),
+        },
+        {
+          path: 'about-us',
+          name: 'about-us',
+          component: () => import('../views/pages/aboutUs/index.vue'),
+        },
       ],
     },
   ],

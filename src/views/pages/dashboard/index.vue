@@ -1,6 +1,6 @@
 <template>
   <div>
-    <n-space v-for="item in 100" :key="item">
+    <n-space v-for="item in 10" :key="item">
       <n-button>Default</n-button>
       <n-button type="tertiary"> Tertiary111 </n-button>
       <n-button type="primary"> Primary </n-button>
